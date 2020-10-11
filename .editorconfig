@@ -1,0 +1,42 @@
+root = true
+
+[*]
+end_of_line = lf
+charset = utf-8
+trim_trailing_whitespace = true
+
+[*.js]
+insert_final_newline = true
+indent_size = 2
+indent_style = space
+
+[*.rst]
+indent_size = 4
+indent_style = space
+
+#angularjs
+[dropdown-toggle.js]
+trim_trailing_whitespace = false
+insert_final_newline = false
+
+#angularjs
+[htmlparser.js]
+insert_final_newline = false
+
+# 4 space indentation
+[*.py]
+indent_style = tab
+
+# Tab indentation (no size specified)
+[Makefile]
+indent_style = tab
+
+# Matches the exact files either package.json or .travis.yml
+[{package.json,.travis.yml}]
+indent_style = space
+indent_size = 2
+
+#taken from symfony
+[*.php]
+indent_style = space
+indent_size = 4
