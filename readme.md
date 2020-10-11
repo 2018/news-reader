@@ -1,4 +1,7 @@
-## How to setup:
+Simple RSS feed reader for RBC news portal.
+Created in PHP with Laravel Framework v5.7.
+
+## Project setup:
 
 ### Clone repository
 `$ git clone https://github.com/2018/news-reader.git directoryname`
@@ -14,18 +17,18 @@
 
 ### Configuration
 - Configure your http server url for project.
-- Create mariadb or mysql database for example "news_reader" and
-Update DB_* property in `.env` file depending on your database settings.
+- Create mysql database (for example "news_reader") and update DB_* property
+ in `.env` file.
 
 ### Run migrations
-$ php artisan migrate
+`$ php artisan migrate`
 
 ### Run seeders
-$ php artisan db:seed
+`$ php artisan db:seed`
 
 ### Go to the URL of your project.
 (for example http//:localhost:80)
 
-### Login to app
+### Login to the app
  - user name: `admin`
  - password: `admin`
